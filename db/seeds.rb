@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Flat.create!(
+  name: 'Appartement vue mer',
+  address: 'Marseille',
+  description: 'Vue magnifique',
+  price_per_night: 100,
+  number_of_guests: 3
+)
